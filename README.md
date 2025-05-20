@@ -6,7 +6,7 @@ In this project, we benchmark the performance of four different implementations 
 - [Caffeine](https://github.com/ben-manes/caffeine) Cache (Java)
 - [Guava](https://github.com/google/guava/) Cache (Java)
 
-# Benchmarking setup
+## Benchmarking Setup
 
 - [Google Benchmark](https://github.com/google/benchmark) for the locking implementation
 - [cmuparlay](https://github.com/cmuparlay/parlaylib) for the lock-free implementation
