@@ -8,7 +8,7 @@ In this project, we benchmark the performance of four different implementations 
 
 # Benchmarking setup
 
-- [Google Benchmark](https)github.com/google/benchmark) for the locking implementation
+- [Google Benchmark](https://github.com/google/benchmark) for the locking implementation
 - [cmuparlay](https://github.com/cmuparlay/parlaylib) for the lock-free implementation
 - [Java Microbenchmark Harness](https://github.com/openjdk/jmh) (JMH) for Caffeine and Guava
 
