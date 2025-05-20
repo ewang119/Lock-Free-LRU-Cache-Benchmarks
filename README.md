@@ -24,8 +24,10 @@ In this project, we benchmark the performance of four different implementations 
 
 - CMake ≥ 3.13
 - C++17
+- OpenJDK 24.0.1
+- Maven 3.9.9
 - Google Benchmark
-- JMH (requires Maven)
+- JMH
 - TBB
 - cmuparlay/flock
 - cmuparlay/parlaylib
