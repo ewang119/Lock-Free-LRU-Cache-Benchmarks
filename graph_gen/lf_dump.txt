@@ -1,0 +1,66 @@
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 6128677658 nanoseconds
+done putting
+Time taken to get: 4085682196 nanoseconds
+done getting
+free(): corrupted unsorted chunks
+Aborted
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=1
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+^C
+KaiserW@node-0:~/diagnosis_2$ ^C
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=32
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 5266011199 nanoseconds
+done putting
+Time taken to get: 3119873560 nanoseconds
+done getting
+free(): corrupted unsorted chunks
+Aborted
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=16
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 5540391172 nanoseconds
+done putting
+Time taken to get: 4194954357 nanoseconds
+done getting
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=8
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 5826664556 nanoseconds
+done putting
+Time taken to get: 4167315343 nanoseconds
+done getting
+free(): corrupted unsorted chunks
+Aborted
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=4
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 6158487548 nanoseconds
+done putting
+Time taken to get: 5555171001 nanoseconds
+done getting
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=1
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 17688670617 nanoseconds
+done putting
+Time taken to get: 18455758380 nanoseconds
+done getting
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=128
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 6656448335 nanoseconds
+done putting
+Time taken to get: 5377529038 nanoseconds
+done getting
+free(): corrupted unsorted chunks
+Aborted
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=2
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 10998135065 nanoseconds
+done putting
+Time taken to get: 11317570556 nanoseconds
+done getting
+KaiserW@node-0:~/diagnosis_2$ export PARLAY_NUM_THREADS=3
+KaiserW@node-0:~/diagnosis_2$ ./LFLock 
+Time taken to put: 7647766807 nanoseconds
+done putting
+Time taken to get: 8669476555 nanoseconds
+done getting
+KaiserW@node-0:~/diagnosis_2$ 
