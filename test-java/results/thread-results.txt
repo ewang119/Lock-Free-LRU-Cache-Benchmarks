@@ -1,0 +1,29 @@
+Benchmark                (cacheSize)  (concurrencyLevel)  (numOps)  (zipfianSkew)   Mode  Cnt     Score      Error   Units
+MyBenchmark.caffeineGet       100000                   1   1000000           0.75  thrpt    3  9086.861 ± 4303.436  ops/ms
+MyBenchmark.caffeinePut       100000                   1   1000000           0.75  thrpt    3  6679.053 ± 4484.187  ops/ms
+MyBenchmark.guavaGet          100000                   1   1000000           0.75  thrpt    3  3782.962 ± 4730.885  ops/ms
+MyBenchmark.guavaPut          100000                   1   1000000           0.75  thrpt    3  3153.747 ± 1252.096  ops/ms
+
+Benchmark                (cacheSize)  (concurrencyLevel)  (numOps)  (zipfianSkew)   Mode  Cnt      Score       Error   Units
+MyBenchmark.caffeineGet       100000                   4   1000000           0.75  thrpt    3  42165.609 ± 24744.722  ops/ms
+MyBenchmark.caffeinePut       100000                   4   1000000           0.75  thrpt    3  21935.163 ±  5901.532  ops/ms
+MyBenchmark.guavaGet          100000                   4   1000000           0.75  thrpt    3   7776.807 ±  2385.836  ops/ms
+MyBenchmark.guavaPut          100000                   4   1000000           0.75  thrpt    3   3033.225 ±  2527.624  ops/ms
+
+Benchmark                (cacheSize)  (concurrencyLevel)  (numOps)  (zipfianSkew)   Mode  Cnt       Score        Error   Units
+MyBenchmark.caffeineGet       100000                  16   1000000           0.75  thrpt    3  134602.493 ± 264349.807  ops/ms
+MyBenchmark.caffeinePut       100000                  16   1000000           0.75  thrpt    3   59972.881 ±  35181.123  ops/ms
+MyBenchmark.guavaGet          100000                  16   1000000           0.75  thrpt    3   17845.146 ±  15780.987  ops/ms
+MyBenchmark.guavaPut          100000                  16   1000000           0.75  thrpt    3    3078.375 ±   1741.821  ops/ms
+
+Benchmark                (cacheSize)  (concurrencyLevel)  (numOps)  (zipfianSkew)   Mode  Cnt       Score       Error   Units
+MyBenchmark.caffeineGet       100000                  64   1000000           0.75  thrpt    3  234252.175 ± 87289.564  ops/ms
+MyBenchmark.caffeinePut       100000                  64   1000000           0.75  thrpt    3   57405.624 ± 31230.161  ops/ms
+MyBenchmark.guavaGet          100000                  64   1000000           0.75  thrpt    3   42096.832 ±  8287.469  ops/ms
+MyBenchmark.guavaPut          100000                  64   1000000           0.75  thrpt    3    3283.829 ± 16122.334  ops/ms
+
+Benchmark                (cacheSize)  (concurrencyLevel)  (numOps)  (zipfianSkew)   Mode  Cnt       Score        Error   Units
+MyBenchmark.caffeineGet       100000                 128   1000000           0.75  thrpt    3  269882.392 ± 131731.807  ops/ms
+MyBenchmark.caffeinePut       100000                 128   1000000           0.75  thrpt    3   64537.750 ±  49692.849  ops/ms
+MyBenchmark.guavaGet          100000                 128   1000000           0.75  thrpt    3   42939.494 ± 130015.559  ops/ms
+MyBenchmark.guavaPut          100000                 128   1000000           0.75  thrpt    3    2862.251 ±   3375.837  ops/ms
